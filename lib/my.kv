@@ -1,0 +1,42 @@
+UI:
+<UI>:
+    orientation:"vertical"
+    MDTopAppBar:
+        title: "hello"
+        md_bg_color: .2,.2,.2,1
+    MDBottomNavigation:
+        panel_color: .2,.2,.2,1
+        text_color_active:"#F5F5F5"
+
+        MDBottomNavigationItem:
+            name: "screen1"
+            text: "python"
+            icon: "language-python"
+
+
+            MDLabel:
+                id: add
+                text:"0"
+                halign:"center"
+            MDFlatButton:
+                text:"Add"
+                on_press: root.add()
+
+
+        MDBottomNavigationItem:
+            name: "screen2"
+            text: "python"
+            icon: "language-python"
+
+            MDLabel:
+                text:"google"
+                halign:"center"
+
+        MDBottomNavigationItem:
+            name: "screen3"
+            text: "python"
+            icon: "language-python"
+
+            MDLabel:
+                text:"hi"
+                halign:"center"
